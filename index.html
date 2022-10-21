@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Rate us!</title>
+</head>
+<body>
+  <main>
+    <div class="card feedback">
+      <figure class="circle">
+        <img src="images/icon-star.svg" alt="Star image">
+      </figure>
+      <article>
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request.All feedback is appreciated to help us improve our suffering!</p>
+      </article>
+      <div class="ratings">
+        <span class="circle">1</span><span class="circle">2</span><span class="circle">3</span><span class="circle">4</span><span class="circle">5</span>
+      </div>
+      <button id="send-feedback">SUBMIT</button>
+    </div>
+    <div class="card greeting">
+      <figure>
+        <img src="images/illustration-thank-you.svg" alt="Thank you illustration image">
+      </figure>
+      <div id="stats">
+        <!-- To be handled by JS -->
+        You have selected 0 out of 5
+      </div>
+      <article>
+        <h1>Thank you!</h1>
+        <p>
+          We appreciate you taking time to give a rating. If you ever need more support, don't hesitate to get in touch!
+        </p>
+      </article>
+    </div>
+  </main>
+  <script src="actions.js"></script>
+</body>
+</html>
